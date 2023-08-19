@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color:white;
+    font-family: 'Inter', sans-serif;
+}
+.form{
+    margin-top:50px;
+    margin-left:50px;
+    width:900px;
+}
+h1{
+    margin-left:15px;
+}
+.student-form>input{
+    margin:15px;
+    margin-top:35px;
+    width:250px;
+    height:25px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.student-form>input:hover{
+    border:1px solid blue;
+}
+#btn{
+    width:300px;
+    height:40px;
+    background-color: white;
+    color:black;
+    border:none;
+    margin-top:20px;
+    margin-left:15px;
+    margin-bottom:30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.searchbar{
+    margin-left:50px;
+}
+#search{
+    width:1050px;
+    height: 35px;
+    border:1px solid gray;
+    padding-left: 15px;
+    margin-left:15px;
+}
+#search:hover{
+    border:1px solid blue;
+}
+.table{
+    margin-left:65px;
+    margin-top:30px;
+    
+    
+}
+.studenttable{
+    border:1px solid gray;
+    border-collapse: collapse;
+    width:92%;
+    
+    
+}
+.studenttable thead td{
+    padding: 15px;
+    border-bottom:1px solid gray;
+    border-left:1px solid gray;
+}
+.studenttable tbody td{
+    padding: 15px;
+    border-left:1px solid gray;
+}
+.studenttable td:nth-child(1)
+{
+    width:5%;
+}
+.studenttable td:nth-child(2),
+.studenttable td:nth-child(3)
+{
+    width:30%;
+}
+.studenttable td:nth-child(4),
+.studenttable td:nth-child(5)
+{
+    width:10%;
+}
+.studenttable td:nth-child(6){
+    width:20%;
+}
+
+
+
+
+
+
+
+
