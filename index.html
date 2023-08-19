@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <div class="form">
@@ -12,55 +16,47 @@
       <form class="student-form">
         <input id="name" type="text" placeholder="Name" />
         <input id="email" type="email" placeholder="Email" />
-        <input id="gpa" type="number" placeholder="GPA" min="0"/>
-        <input id="age" type="number" placeholder="Age" min="1"/>
-        <input id="degree" type="text" placeholder="Degree"/>
+        <input id="gpa" type="number" placeholder="GPA" min="0" />
+        <input id="age" type="number" placeholder="Age" min="1" />
+        <input id="degree" type="text" placeholder="Degree" />
       </form>
       <button id="btn">Add Student</button>
     </div>
-    
+
     <div class="searchbar">
-        <form>
-        <input id="search" type="text" placeholder="Search By Name, email or degree" autocomplete="off" autocomplete="new-password">
-    </form>
+      <form>
+        <input
+          id="search"
+          type="text"
+          placeholder="Search By Name, email or degree"
+          autocomplete="off"
+          autocomplete="new-password"
+        />
+      </form>
     </div>
 
     <div class="table">
-        <table class="studenttable" >
-                <thead>
-                    <td>ID</td>
-                    <td>Student Name</td>
-                    <td>Email</td>
-                    <td>Age</td>
-                    <td>GPA</td>
-                    <td>Degree</td>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
+      <table class="studenttable">
+        <thead>
+          <td>ID</td>
+          <td>Student Name</td>
+          <td>Email</td>
+          <td>Age</td>
+          <td>GPA</td>
+          <td>Degree</td>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- <td>1</td>
                         <td> Alice</td>
                         <td>alice@gmail.com</td>
                         <td>21</td>
                         <td>9</td>
-                        <td>btech</td>
-                    </tr>
-                    
-                </tbody>
-        </table>
+                        <td>btech</td> -->
+          </tr>
+        </tbody>
+      </table>
     </div>
-
-
-
-
-
-
-
-
-
-
-<div>
-    <h2>hi</h2>
-</div>
 
     <script src="script.js"></script>
   </body>
